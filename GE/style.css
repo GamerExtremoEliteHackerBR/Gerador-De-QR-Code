@@ -1,0 +1,89 @@
+/* Color Theme Swatches in Hex */
+.Museum-für-Naturkunde-—-website-redesign-1-hex { color: #F2CA52; }
+.Museum-für-Naturkunde-—-website-redesign-2-hex { color: #F2B749; }
+.Museum-für-Naturkunde-—-website-redesign-3-hex { color: #A68D60; }
+.Museum-für-Naturkunde-—-website-redesign-4-hex { color: #594C34; }
+.Museum-für-Naturkunde-—-website-redesign-5-hex { color: #0D0D0D; }
+
+*{
+    font-family: 'Roboto', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.container{
+    border: solid 1px #594C34;
+    box-shadow: 10px 10px 20px #A68D60;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 55%;
+    height: 30%;
+    margin: 50px 300px;
+}
+
+.container_conteudo{
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.container_title_h1{
+    font-size: 2.5rem;
+    margin-bottom: 10px;
+    color: #0D0D0D;
+}
+
+.container_title_p{
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: #0D0D0D;
+}
+
+.container_inputs{
+    display: flex;
+    flex-direction: column;
+}
+
+.container_inputs_textarea{
+    border-style: none;
+    background-color: #058ff8;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+
+}
+
+.container_inputs_button{
+    margin-bottom: 10px;
+    background-color: #058ff8;
+    /*background-color: #053af8;*/
+    border-style: none;
+    border-radius: 8px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 1.5rem;
+}
+
+footer{
+    align-items: center;
+    /*position: fixed;*/
+    text-align: center;
+
+    border: solid 1px #594C34;
+    box-shadow: 10px 10px 20px #A68D60;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+   
+    width: 55%;
+    height: 05%;
+    /*margin: 50px 300px;*/
+    margin: 30px ;
+    
+    
+}
+

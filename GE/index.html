@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Qr code</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap" rel="stylesheet"> 
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="container_conteudo">
+            <h1 class="container_title_h1">Gerador de Qr Code</h1>
+
+            <!--<p class="container_title_p">Cole seu link ou texto</p>-->
+                <div class="container_inputs">
+                    <textarea maxlength="300" rows="6" class="container_inputs_textarea" placeholder="Cole seu link ou texto aqui."></textarea>
+            
+                    <button onclick="gerarQrCode()" class="container_inputs_button">Gerar</button>
+
+                    <footer><p>&copy; Gamer Extremo Elite H@cker BR</p></footer>
+                </div>
+        </div>
+        
+        <img src="" id="qrCodeImagem" alt="">
+
+
+    </div>
+    
+    <!--<footer><p>&copy; Desenvolvido por Gamer Extremo Elite H@cker BR</p></footer>-->
+
+    <script src="script.js"></script>
+</body>
+</html>
